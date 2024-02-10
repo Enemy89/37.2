@@ -55,12 +55,10 @@ ApplicationWindow {
 
             Button {
                 text: "\u23EA️" // ⏪️
-                onClicked: mediaplayer.seek(mediaplayer.position - 5000)
             }
 
             Button {
                 text: "\u23E9️" // ⏩️
-                onClicked: mediaplayer.seek(mediaplayer.position + 5000)
             }
         }
 
